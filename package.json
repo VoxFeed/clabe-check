@@ -1,0 +1,33 @@
+{
+  "name": "clabe-check",
+  "description": "Validator for the CLABE banking standard for the numbering of bank accounts in Mexico.",
+  "version": "0.1.0",
+  "keywords": [
+    "clabe",
+    "banking",
+    "validator",
+    "mexico"
+  ],
+  "scripts": {
+    "test": "tape test/*.js",
+    "coverage": "istanbul cover tape -- test/*.js"
+  },
+  "homepage": "https://github.com/codingpains/clabe-check",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codingpains/clabe-check.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Gustavo Ortiz",
+    "email": "gustavo.ortiz.monroy@gmail.com",
+    "url": "http://medium.com/@codingpains"
+  },
+  "main": "./lib/clabe-check.js",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.3.20",
+    "jshint": "^2.8.0",
+    "tape": "^4.2.0"
+  }
+}
