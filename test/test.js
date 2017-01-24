@@ -67,7 +67,7 @@ test('should return true if clabe is valid', function(assert) {
 });
 
 test('should return true if clabe with checksum of 0 is valid', function(assert) {
-  var input = '002010777777777770';  //valid: Banco Nacional de México (Aguascalientes)
+  var input = '002010777777777770';
   expected = true;
   actual = clabeCheck(input);
   assert.equal(actual, expected, 'good clabe');
