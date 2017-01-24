@@ -65,3 +65,12 @@ test('should return true if clabe is valid', function(assert) {
 
   assert.end();
 });
+
+test('should return true if clabe with checksum of 0 is valid', function(assert) {
+  var input = '002010777777777770';
+  expected = true;
+  actual = clabeCheck(input);
+  assert.equal(actual, expected, 'good clabe');
+
+  assert.end();
+});
