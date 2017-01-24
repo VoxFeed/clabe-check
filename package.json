@@ -1,7 +1,7 @@
 {
   "name": "clabe-check",
   "description": "Validator for the CLABE banking standard for the numbering of bank accounts in Mexico.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "clabe",
     "banking",
@@ -12,10 +12,10 @@
     "test": "tape test/*.js",
     "coverage": "istanbul cover tape -- test/*.js"
   },
-  "homepage": "https://github.com/codingpains/clabe-check",
+  "homepage": "https://github.com/VoxFeed/clabe-check",
   "repository": {
     "type": "git",
-    "url": "git://github.com/codingpains/clabe-check.git"
+    "url": "git://github.com/VoxFeed/clabe-check.git"
   },
   "license": "MIT",
   "author": {
