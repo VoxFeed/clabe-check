@@ -27,13 +27,13 @@ const notAString = 12345678901234567;
 const invalidClabe = '01234567890123456';
 const validClabe = '328000921510220225';
 
-console.log(clabeCheck(notAClabe)); // Should print "false"
+console.log(clabeCheck(notAClabe)); // false
 
-console.log(clabeCheck(notAString)); // Should print "false"
+console.log(clabeCheck(notAString)); // false
 
-console.log(clabeCheck(invalidClabe)); // Should print "false"
+console.log(clabeCheck(invalidClabe)); // false
 
-console.log(clabeCheck(validClabe)); // Should print "true"
+console.log(clabeCheck(validClabe)); // true
 ```
 
 ## License

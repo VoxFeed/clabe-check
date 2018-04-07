@@ -1,7 +1,7 @@
 {
   "name": "clabe-check",
   "description": "Lightweight validator for the CLABE banking standard for the numbering of bank accounts in Mexico.",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "keywords": [
     "clabe",
     "banking",
@@ -19,9 +19,9 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Gustavo Ortiz",
-    "email": "gustavo.ortiz.monroy@gmail.com",
-    "url": "http://medium.com/@codingpains"
+    "name": "VoxFeed",
+    "email": "hi@voxfeed.com",
+    "url": "https://voxfeed.com"
   },
   "main": "./lib/clabe-check.js",
   "dependencies": {},
