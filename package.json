@@ -1,7 +1,7 @@
 {
   "name": "clabe-check",
-  "description": "Validator for the CLABE banking standard for the numbering of bank accounts in Mexico.",
-  "version": "0.1.1",
+  "description": "Lightweight validator for the CLABE banking standard for the numbering of bank accounts in Mexico.",
+  "version": "0.1.2",
   "keywords": [
     "clabe",
     "banking",

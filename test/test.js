@@ -1,18 +1,12 @@
 var test = require('tape');
 var clabeCheck = require('./../lib/clabe-check.js');
 
-test('should throw BAD_INPUT if input is not a string', function(assert) {
-  var input = 072320006405989616;
-  var expected = 'BAD_INPUT';
-  var actual;
+test('should return false if input is not a string', function(assert) {
+  var input = 723200064059896160;
+  var expected = false;
+  var actual = clabeCheck(input);
 
-  try {
-    clabeCheck(input);
-  } catch (error) {
-    actual = error.name;
-  }
-
-  assert.equal(actual, expected, 'correct type of error');
+  assert.equal(actual, expected, 'any non-string value is invalid');
   assert.end();
 });
 
